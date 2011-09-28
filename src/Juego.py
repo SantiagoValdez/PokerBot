@@ -14,6 +14,9 @@ Se supone que van a usar estas clases para abstraer todas las mierdas
 de Pygame, como el tema de la musica, los sonidos, el manejo de sprites
 el fondo, los eventos de teclado y mouse...By the way, esta es la manera
 correcta de poner los comentarios, no como su sucio pydev pone...
+
+En una carpeta datos dentro del mismo directorio pones las imagenes que
+se van a usar.
 """
 
 import os
@@ -291,7 +294,8 @@ def main():
             else :
                 print c
         if k :
-            print k
+            if k == "esc" :
+                exit()
             
         
         #---Despues de todos los calculos---
