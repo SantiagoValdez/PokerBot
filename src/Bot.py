@@ -47,7 +47,7 @@ class Bot(Jugador):
         '''
         pass           
     
-        
+        odd[i][1]
     def calcular_odds(self, ronda, comunitarias):
         cartas_restantes = [50, 47, 46, 45]
         odds={"carta alta":None,"par":None, "doble par":None, "trio":None, "escalera interna":None, "escalera abierta":None, 
